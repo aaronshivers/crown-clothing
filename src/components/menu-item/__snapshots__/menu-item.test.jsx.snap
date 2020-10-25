@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem should render correctly 1`] = `
+<div
+  className="menu-item"
+>
+  <div
+    className="content"
+  >
+    <h1
+      className="title"
+    >
+      Title
+    </h1>
+    <span
+      className="subtitle"
+    >
+      Subtitle
+    </span>
+  </div>
+</div>
+`;
