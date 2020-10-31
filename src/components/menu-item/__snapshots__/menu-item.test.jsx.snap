@@ -5,17 +5,25 @@ exports[`MenuItem should render correctly 1`] = `
   className="menu-item"
 >
   <div
+    className="background-image"
+    style={
+      Object {
+        "backgroundImage": "url(ImageUrl)",
+      }
+    }
+  />
+  <div
     className="content"
   >
     <h1
       className="title"
     >
-      Title
+      TITLE
     </h1>
     <span
       className="subtitle"
     >
-      Subtitle
+      SHOP NOW
     </span>
   </div>
 </div>

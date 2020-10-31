@@ -1,3 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DirectoryMenu should render correctly 1`] = `<div />`;
+exports[`DirectoryMenu should render correctly 1`] = `
+<div
+  className="directory-menu"
+>
+  <MenuItem
+    imageUrl="https://i.ibb.co/cvpntL1/hats.png"
+    key="1"
+    title="hats"
+  />
+  <MenuItem
+    imageUrl="https://i.ibb.co/px2tCc3/jackets.png"
+    key="2"
+    title="jackets"
+  />
+  <MenuItem
+    imageUrl="https://i.ibb.co/0jqHpnp/sneakers.png"
+    key="3"
+    title="sneakers"
+  />
+  <MenuItem
+    imageUrl="https://i.ibb.co/GCCdy8t/womens.png"
+    key="4"
+    size="large"
+    title="womens"
+  />
+  <MenuItem
+    imageUrl="https://i.ibb.co/R70vBrQ/men.png"
+    key="5"
+    size="large"
+    title="mens"
+  />
+</div>
+`;

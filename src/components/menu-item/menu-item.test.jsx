@@ -20,7 +20,19 @@ describe('MenuItem', () => {
     expect(menuItem.hasClass('menu-item')).toBeTruthy();
   });
 
+  it('should contain a `background-image` element', () => {
+    expect(menuItem.find('.background-image')).toHaveLength(1);
+  });
+
   it('should contain a `content` element', () => {
     expect(menuItem.find('.content')).toHaveLength(1);
+  });
+
+  it('should contain a `title` element', () => {
+    expect(menuItem.find('.title')).toHaveLength(1);
+  });
+
+  it('should contain a `subtitle` element', () => {
+    expect(menuItem.find('.subtitle')).toHaveLength(1);
   });
 });
